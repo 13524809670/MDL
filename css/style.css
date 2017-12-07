@@ -1,0 +1,172 @@
+/*背景颜色--公共*/
+.bgColor{
+    background: #FFEDBC;  
+    background: -webkit-linear-gradient(to top, #ED4264, #FFEDBC); 
+    background: linear-gradient(to top, #ED4264, #FFEDBC); 
+}
+
+.bgColor2{
+	background: #f0f0f0; 
+}
+
+/*主题宽度--公共*/
+.main_body{
+	width: 80%;
+	height: 100%;
+	margin:0 auto;
+}
+
+/*模块间隔样式--公共*/
+.m_top{
+	width: 100%;
+	height: 0.3rem;
+}
+.m_bon{
+	width: 100%;
+	height: 1rem;
+}
+.m_bom{
+	width: 100%;
+	height: 1.5rem;
+}
+
+
+/*首页样式---------------*/
+/*二维码样式*/
+.qrcode{
+	width: 100%;
+	padding:1.5rem;
+	border:1px solid #f0f0f0;
+}
+
+/*按钮样式*/
+.btn{
+	width: 100%;
+	padding:0.08rem 0;
+	font-size: 0.18rem;
+	color:#fff;
+	border-radius: 10px;
+	background: #E8A100;
+}
+/*------------------------*/
+
+
+
+/*题一样式*/
+.ques_con{
+	width: 100%;
+	padding-top:0.3rem;
+}
+.ques_con h2,.ques_con h3,
+.ques_con1 h2,.ques_con1 h3,
+.ques_con2 h2,.ques_con2 h3{
+	line-height: 1.5;
+	font-weight: 500;
+}
+.ques_con h2,
+.ques_con1 h2,
+.ques_con2 h2{
+	font-size: .22rem;
+}
+.ques_con h3,
+.ques_con1 h3,
+.ques_con2 h3{
+	font-size: .14rem;
+}
+.line{
+	line-height: 3;
+	font-size: 0.14rem;
+}
+.hide{
+	display: none;
+}
+
+/*------------------------*/
+
+
+/*信息提交页样式*/
+.linel{
+	margin-bottom: 0.1rem;
+}
+.poen{
+	display:block;
+	line-height: 2;
+	font-size: .14rem;
+	color:#666;
+}
+.poenl{
+	display:block;
+	width: 100%;
+	padding:0.08rem;
+	border-radius: 6px;
+}
+/*---------------------*/
+
+
+/*领奖页样式*/
+.content{
+	width: 70%;
+	margin:0 auto;
+	border-radius: 10px;
+	background: #fff;
+	text-align: center;
+	padding:0.8rem 0 0.2rem 0;
+}
+.content h2{
+	font-size: .2rem;
+	font-weight: 500;
+	line-height: 2;
+}
+.content p{
+	font-size: .13rem;
+}
+.content .btn-A{
+	width: 40% !important;
+
+}
+
+/*分享遮罩*/
+.mark{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	top:0;
+	padding-top:9%;
+	display: none;
+}
+.mark img{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	animation:0.5s jello infinite;
+}
+/*---------------------*/
+
+
+/*单选样式*/
+.line{
+	position: relative;
+	width: 100%;
+}
+.line i{
+	width: 0.13rem;
+	height: 0.13rem;
+	display: inline-block;
+	vertical-align: middle;
+	background: url(../img/no.png) no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.line input{
+	position: absolute;
+	left: 0rem;
+	top: 0.17rem;
+	opacity: 0;
+}
+.line input[type='radio']:checked+i{
+	background: url(../img/yes.png) no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
